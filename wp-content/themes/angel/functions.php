@@ -4,3 +4,15 @@ function my_theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
  
 }
+
+function boldgroup_shortcode($atts = [], $content = null, $tag = '') {
+	echo "<div class='boldgroup'>";
+	echo $content;
+	echo "<div>";
+}
+function wporg_shortcodes_init()
+{
+    add_shortcode('boldgroup', 'boldgroup_shortcode');
+}
+ 
+add_action('init', 'wporg_shortcodes_init');
