@@ -20,15 +20,21 @@ body {
 }
 .site-purpose {
 	background-color: #4070a0;
+}
+.site-purpose p {
     color: white;
 }
 .site-purpose .site-title {
 	font-weight: bold;
 }
+.site-purpose .site-description {
+	font-style: italic;
+}
 a:hover {
 	text-decoration: underline;
 }
 .site-header {
+	padding: 5px 22px;
     border-bottom: solid 5px red;
 }
 .site-footer {
