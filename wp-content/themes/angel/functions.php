@@ -6,9 +6,10 @@ function my_theme_enqueue_styles() {
 }
 
 function boldgroup_shortcode($atts = [], $content = null, $tag = '') {
-	echo "<div class='boldgroup'>";
-	echo $content;
-	echo "<div>";
+	$m = "<div class='boldgroup'>";
+	$m.= $content;
+	$m.= "<div>";
+	return $m;
 }
 function wporg_shortcodes_init()
 {
