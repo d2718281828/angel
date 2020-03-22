@@ -18,10 +18,12 @@ body {
 	background-color: #d0f0ff;
 	font-family: "Arial";
 }
-.site-title,
-.site-description {
+.site-purpose {
 	background-color: #4070a0;
     color: white;
+}
+.site-purpose .site-title {
+	font-weight: bold;
 }
 a:hover {
 	text-decoration: underline;
@@ -32,4 +34,5 @@ a:hover {
 .site-footer {
 	background-color: #4070a0;
     color: white;
+	border-top: solid 5px white;
 }
