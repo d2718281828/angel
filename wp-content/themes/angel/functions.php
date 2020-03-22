@@ -8,7 +8,7 @@ function my_theme_enqueue_styles() {
 function boldgroup_shortcode($atts = [], $content = null, $tag = '') {
 	$m = "<div class='boldgroup'>";
 	$m.= $content;
-	$m.= "<div>";
+	$m.= "</div>";
 	return $m;
 }
 function wporg_shortcodes_init()
