@@ -11,3 +11,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: familysite
 
 */
+body.home h1 {
+	display:none;
+}
+body {
+	background-color: #d0f0ff;
+	font-family: "Arial";
+}
+.site-title,
+.site-description {
+	background-color: #4070a0;
+    color: white;
+}
+a:hover {
+	text-decoration: underline;
+}
+.site-header {
+    border-bottom: solid 5px red;
+}
+.site-footer {
+	background-color: #4070a0;
+    color: white;
+}
