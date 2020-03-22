@@ -22,7 +22,8 @@ body {
 .site-purpose {
 	background-color: #4070a0;
 }
-.site-purpose p {
+.site-purpose p,
+.site-purpose p a {
     color: white;
 }
 .site-purpose .site-title {
